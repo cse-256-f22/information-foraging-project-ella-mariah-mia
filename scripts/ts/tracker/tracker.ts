@@ -14,13 +14,13 @@ import { scenarios } from './../core/utils/scenarios';
 
 const setup = async () => {
     await waitUntilReady();
-    // const scenarioTag = window.location.hash.split('?')[0].replace('#', '');
-    // const scenario = scenarios.find((scen) => scen.tag === scenarioTag);
-    // if (scenario === null || scenario === undefined) {
-    //     alert('This HIT is broken and cannot be completed at this time.');
-    //     return;
-    // }
-    // Tracker.loadScenario(scenario);
+    const scenarioTag = window.location.hash.split('?')[0].replace('#', '');
+    const scenario = scenarios.find((scen) => scen.tag === scenarioTag);
+    if (scenario === null || scenario === undefined) {
+        alert('This HIT is broken and cannot be completed at this time.');
+        return;
+    }
+    Tracker.loadScenario(scenario);
     Tracker.start({
         keyPrefix: 'information-foraging',
         bucketName: 'cse-256-log',
