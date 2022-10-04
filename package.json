@@ -16,7 +16,8 @@
   "author": "Riley McCuen",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.596.0"
+    "aws-sdk": "^2.596.0",
+    "react-qparams": "^0.4.0"
   },
   "devDependencies": {
     "@types/node": "^13.1.1",
