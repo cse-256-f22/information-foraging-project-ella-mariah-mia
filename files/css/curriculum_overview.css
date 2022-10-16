@@ -24,3 +24,7 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+h1 {
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
