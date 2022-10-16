@@ -31,3 +31,12 @@ main li {
 #student-prog {
     text-decoration: underline;
 }
+nav li {
+    margin-bottom: 0px;
+}
+nav a {
+   color: #a51417;
+}
+nav a:visited {
+    color: #a51417;
+}
