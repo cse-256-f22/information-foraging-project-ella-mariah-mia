@@ -40,3 +40,6 @@ nav a {
 nav a:visited {
     color: #a51417;
 }
+nav ul{
+    margin-bottom: 1em;
+}
